@@ -22,8 +22,14 @@ function Missions() {
               <td className="description td-description">
                 {mission.description}
               </td>
-              <td className="status" />
-              <td className="button" />
+              <td className="status">
+                <span className="mission-status-leave">Active Member</span>
+                <span className="mission-status-join">Active Member</span>
+              </td>
+              <td className="button">
+                <button type="button" className="td-leave-mission">Leave Mission</button>
+                <button type="button" className="td-join-mission">Join Mission</button>
+              </td>
             </tr>
           ))}
         </tbody>
