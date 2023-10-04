@@ -1,0 +1,32 @@
+.missions {
+  color: #333;
+  border: 1px solid #ddd;
+  border-collapse: collapse;
+  margin: 20px 5%;
+}
+
+.missions td {
+  border: 1px solid #ddd;
+  padding: 5px;
+}
+
+.missions th {
+  border: 1px solid #ddd;
+  text-align: left;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.td-mission {
+  vertical-align: top;
+  width: 10%;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.status,
+.button {
+  text-align: center;
+  width: 10%;
+}
