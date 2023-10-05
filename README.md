@@ -58,6 +58,16 @@ Space Travellers' Hub is a web application for a company that provides commercia
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+- **Nav Bar**
+- **Fetch Rockets & Display**
+- **Book and Cancel Rocket**
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
