@@ -3,5 +3,6 @@ import App from './App';
 
 test('renders entire page', () => {
   render(<App />);
-  screen.debug();
+  const linkElement = screen.getByText(/Space Travelers' Hub/i);
+  expect(linkElement).toBeInTheDocument();
 });
