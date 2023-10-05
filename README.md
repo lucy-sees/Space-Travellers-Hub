@@ -1,15 +1,22 @@
 <a name="readme-top"></a>
 
+<div align="center">
+
+  <img src="./planet.png" alt="logo" width="250"  height="auto" />
+
+<h3><b>Space Traveller's Hub</b></h3>
+
+</div>
+
 <!-- TABLE OF CONTENTS -->
 
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
--  [🚀 Space Travelers' Hub ](#-space-travellers-app)
+-  [🚀 Space Travelers' Hub ](#-space-travellers-hub)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  <!-- - [🚀 Live Demo ](#-live-demo-) -->
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -26,9 +33,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 🚀 Space Travelers' Hub <a name="about-project"></a>
+# 🚀 Space Travellers' Hub <a name="about-project"></a>
 
-Space Travelers' Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to:
+Space Travellers' Hub is a web application for a company that provides commercial and scientific space travel services. The application will allow users to:
 
 - Book rockets
 - Join selected space missions
@@ -153,7 +160,7 @@ If you like this project, please consider giving it a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank all code reviewers for making this project better.
+I would like to thank Siddhartha Ghosh for collaborating with me on this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
