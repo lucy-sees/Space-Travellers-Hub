@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Missions Component renders correctly 1`] = `
+<DocumentFragment>
+  <table
+    class="missions"
+  >
+    <thead>
+      <tr>
+        <th
+          class="mission"
+        >
+          Mission
+        </th>
+        <th
+          class="description"
+        >
+          Description
+        </th>
+        <th
+          class="status"
+        >
+          Status
+        </th>
+        <th
+          class="button"
+        >
+           
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr
+        class="rows"
+      >
+        <td
+          class="td-mission"
+        >
+          Mission 1
+        </td>
+        <td
+          class="description td-description"
+        >
+          Description 1
+        </td>
+        <td
+          class="status"
+        >
+          <span
+            class="mission-status-leave"
+          >
+            Active Member
+          </span>
+        </td>
+        <td
+          class="button"
+        >
+          <button
+            class="td-leave-mission"
+            type="button"
+          >
+            Leave Mission
+          </button>
+        </td>
+      </tr>
+      <tr
+        class="join-rows"
+      >
+        <td
+          class="td-mission"
+        >
+          Mission 2
+        </td>
+        <td
+          class="description td-description"
+        >
+          Description 2
+        </td>
+        <td
+          class="status"
+        >
+          <span
+            class="mission-status-join"
+          >
+            NOT A MEMBER
+          </span>
+        </td>
+        <td
+          class="button"
+        >
+          <button
+            class="td-join-mission"
+            type="button"
+          >
+            Join Mission
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</DocumentFragment>
+`;
+
+exports[`Navigation Component renders correctly 1`] = `
+<DocumentFragment>
+  <nav
+    class="navmenu-desktop"
+  >
+    <img
+      alt="logo"
+      class="logo-img"
+      src="planet.png"
+    />
+    <h1
+      class="logo"
+    >
+      Space Travellers' Hub
+    </h1>
+    <ul
+      class="nav-items"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          aria-current="page"
+          class="activeLink"
+          href="/"
+        />
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nonActiveLink"
+          href="/rockets"
+        >
+          Rockets
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nonActiveLink"
+          href="/missions"
+        >
+          Missions
+        </a>
+      </li>
+      <li
+        class="nav-divider"
+      >
+        |
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nonActiveLink"
+          href="/my-profile"
+        >
+          My Profile
+        </a>
+      </li>
+    </ul>
+  </nav>
+</DocumentFragment>
+`;
+
+exports[`Profile Component renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="profile"
+  >
+    <table
+      class="profile-missions"
+    >
+      <thead>
+        <tr>
+          <th>
+            My Missions
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Mission 1
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <table
+      class="profile-rockets"
+    >
+      <thead>
+        <tr>
+          <th>
+            My Rockets
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            Rocket 2
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Rockets Component matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="rockets-container"
+  >
+    <div
+      class="rocket-left"
+    >
+      <img
+        alt="Rocket 1"
+        class="rocket-image"
+        src="rocket1.jpg"
+      />
+      <div
+        class="rocket-details"
+      >
+        <h2
+          class="rocket-name"
+        >
+          Rocket 1
+        </h2>
+        <p
+          class="rocket-desc"
+        >
+           
+          <span
+            class="reserved-badge"
+          >
+            Reserved
+          </span>
+          Description 1
+        </p>
+        <button
+          class="rocket-btn cancel"
+          data-testid="cancel-reservation-button-1"
+          type="button"
+        >
+          Cancel Reservation
+        </button>
+      </div>
+    </div>
+    <div
+      class="rocket-left"
+    >
+      <img
+        alt="Rocket 2"
+        class="rocket-image"
+        src="rocket2.jpg"
+      />
+      <div
+        class="rocket-details"
+      >
+        <h2
+          class="rocket-name"
+        >
+          Rocket 2
+        </h2>
+        <p
+          class="rocket-desc"
+        >
+          Description 2
+        </p>
+        <button
+          class="rocket-btn"
+          data-testid="reserve-button-2"
+          type="button"
+        >
+          Reserve Rocket
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
