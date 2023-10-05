@@ -50,18 +50,6 @@ Space Travellers' Hub is a web application for a company that provides commercia
 
 ### Key Features <a name="key-features"></a>
 
-<!-- <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
-
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- Features -->
-
-### Key Features <a name="key-features"></a>
-
 - **Nav Bar**
 - **Fetch Rockets & Display**
 - **Book and Cancel Rocket**
@@ -181,4 +169,3 @@ I would like to thank Siddhartha Ghosh for collaborating with me on this project
 This project is [MIT](https://github.com/lucy-sees/Space-Travellers-Hub/blob/5a158d3dd0b29be4752eceaca5bae361a27e052d/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
